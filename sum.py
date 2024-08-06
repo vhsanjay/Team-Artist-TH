@@ -1,6 +1,6 @@
 def add(a, b):
   return a+b
 
-A=int(input("enter the number"))
-B=int(input("enter the number"))
-print(f"the result is:{add(A,B)}")
+num1=int(input("enter the number"))
+num2=int(input("enter the number"))
+print(f"the result is:{add(num1,num2)}")
