@@ -1,6 +1,5 @@
 def add(a, b):
-  return a+b
+  return int(a)+(b)
 
-num1=int(input("enter the number"))
-num2=int(input("enter the number"))
+num1,num2=input("enter the number").split()
 print(f"the result is:{add(num1,num2)}")
